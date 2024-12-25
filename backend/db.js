@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://deepakcode21:5TKUdMdooxejiZvg@cluster0.0fcp5.mongodb.net/")
+mongoose.connect("") //Put here your mongo bd credentials for use this applicationn
 const todoSchema = mongoose.Schema({
     title: String,
     description: String,
